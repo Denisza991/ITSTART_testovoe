@@ -2,14 +2,14 @@
 Тестовое задание
 
 ## json-server
-cd json-server
-npm i
-npx json-server seminars.json -p 3001
+cd json-server  
+npm i  
+npx json-server seminars.json -p 3001  
 
 ## react
-cd client
-npm i
-npm run start
+cd client  
+npm i  
+npm run start  
 
 ## Задание
 
