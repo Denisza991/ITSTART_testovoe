@@ -1,0 +1,31 @@
+.card {
+    margin: 30px;
+    width: 300px;
+    border: 1px solid var(--brdrcolor);
+    border-radius: 10px;
+    background-color: var(--backcolor2);
+    overflow: hidden;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+    place-self: center;
+}
+
+.card_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    height: 100px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.card_img {
+    width: 100%;
+}
+
+.card_time {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}

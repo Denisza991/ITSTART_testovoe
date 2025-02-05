@@ -1,0 +1,35 @@
+* {
+    --backcolor: #363636;
+    --textcolor: white;
+    --brdrcolor: #00FF00;
+    --focusbackcolor: #404040;
+    --backcolor2: #303030;
+    --hovercolor: #40FF40;
+
+    --halftransparent: rgba(1, 1, 1, 0.5);
+
+    margin: 0;
+    background-color: transparent;
+    color: var(--textcolor);
+    text-decoration: none;
+    box-sizing: border-box;
+
+    border: none;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    background-color: var(--backcolor);
+}
+
+.card_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
